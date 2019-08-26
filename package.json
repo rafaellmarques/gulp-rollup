@@ -1,0 +1,33 @@
+{
+  "name": "gulp-rollup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafaellmarques/gulp-rollup.git"
+  },
+  "keywords": [
+    "gulp",
+    "rollup"
+  ],
+  "author": "Rafael Marques",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rafaellmarques/gulp-rollup/issues"
+  },
+  "homepage": "https://github.com/rafaellmarques/gulp-rollup#readme",
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "babel-preset-es2015-rollup": "^3.0.0",
+    "gulp": "^4.0.2",
+    "gulp-cli": "^2.2.0",
+    "rollup": "^1.20.1",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-node-resolve": "^5.2.0"
+  }
+}
