@@ -1,0 +1,15 @@
+// Base
+@import "./base/base";
+@import "./base/functions";
+@import "./base/normalize";
+
+// Pages
+@import "./pages/home";
+
+// Components
+@import "./components/breadcrumbs";
+@import "./components/fileUpload";
+@import "./components/filters";
+@import "./components/footer";
+@import "./components/header";
+@import "./components/loader";

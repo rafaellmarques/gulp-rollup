@@ -1,11 +1,177 @@
 ﻿<!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br" xmlns="http://www.w3.org/1999/xhtml" xmlns:vtex="http://www.vtex.com.br/2009/vtex-common" xmlns:vtex.cmc="http://www.vtex.com.br/2009/vtex-comerce">
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
-		<script src="js/bundle.js"></script>
 		<title>Document</title>
+		<link rel="stylesheet" href="./css/store.css" />
+		<script src="./js/store.js"></script>
 	</head>
-	<body></body>
+
+	<body class="home">
+		<div class="loader">
+			<div class="loader_box">
+				<div class="box_inner one"></div>
+				<div class="box_inner two"></div>
+			</div>
+			<img class="loader_logo" src="./img/assets/img/logo_synapcom.png" alt="" />
+		</div>
+		<header class="header">
+			<div class="container">
+				<div class="header-flex">
+					<div class="header-logo">
+						<h1 class="header-logo-h1">
+							<a href="" class="header-logo-a">
+								<img src="./img/assets/img/logo_synapcom.png" alt="" class="header-logo-img" />
+							</a>
+						</h1>
+					</div>
+					<div class="header-search">
+						<div class="header-search-group">
+							<input type="search" name="search-bar" id="search-bar" placeholder="Search" />
+							<button type="submit" id="search-button">
+								Search
+							</button>
+						</div>
+					</div>
+					<div class="header-actions">
+						<div class="showScroll"></div>
+					</div>
+				</div>
+				<div class="header-nav">
+					<ul class="nav-container">
+						<li class="nav-item">A</li>
+						<li class="nav-item">B</li>
+						<li class="nav-item">C</li>
+						<li class="nav-item">D</li>
+						<li class="nav-item">E</li>
+					</ul>
+				</div>
+			</div>
+		</header>
+		<main class="main">
+			<div class="container">
+				<div class="content">
+					<section class="breadcrumbs">
+						<ul class="breadcrumbs-container">
+							<li class="breadcrumbs-item">
+								<span class="item">A</span>
+							</li>
+							<li class="breadcrumbs-item">
+								<span class="item">B</span>
+							</li>
+							<li class="breadcrumbs-item">
+								<span class="item">C<span class="item">CC</span></span>
+							</li>
+							<li class="breadcrumbs-item">
+								<span class="item">D<span class="item">DD</span></span>
+							</li>
+							<li class="breadcrumbs-item">
+								<span class="item active">E</span>
+							</li>
+						</ul>
+					</section>
+					<section>
+						<div class="row">
+							<div class="column">
+								<h4>Lists</h4>
+								<div class="lists">
+									<ul class="list">
+										<li data-name="Rafael">
+											<a href="#Rafael">Rafael</a>
+										</li>
+										<li data-name="Renata">
+											<a href="#Renata">Renata</a>
+										</li>
+										<li data-name="Sonia">
+											<a href="#Sonia">Sonia</a>
+										</li>
+										<li data-name="Laercio">
+											<a href="#Laercio">Laércio</a>
+										</li>
+										<li data-name="Miguel">
+											<a href="#Miguel">Miguel</a>
+										</li>
+										<li data-name="Fabio">
+											<a href="#Fabio">Fábio</a>
+										</li>
+										<li data-name="Lorenzo'">
+											<a href="#Lorenzo">Lorenzo</a>
+										</li>
+										<li data-name="Lucca">
+											<a href="#Lucca">Lucca</a>
+										</li>
+										<li data-name="Lais">
+											<a href="#Lais">Láis</a>
+										</li>
+										<li data-name="Felipe">
+											<a href="#Felipe">Felipe</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</section>
+					<section>
+						<div class="row">
+							<div class="column">
+								<h4>File Uploader</h4>
+								<div class="product-file-upload">
+									<span class="product-file-upload-title">Arquivo</span>
+									<label class="product-file-upload-label">
+										<input type="file" id="fileProductUpload" name="fileProductUpload" data-name="fileProductUpload" class="fileCustomizationAdvanced product-file-upload-field" />
+										<span class="product-file-upload-value"></span>
+									</label>
+									<span class="product-file-upload-details">Detalhes</span>
+								</div>
+							</div>
+							<div class="column">
+								<h4>Parent List</h4>
+								<div class="filters">
+									<ul class="filter-selected">
+										<li>
+											<span class="item">
+												Pai
+												<span class="item">
+													Filho
+													<a href="" class="delete"></a>
+												</span>
+											</span>
+										</li>
+										<li>
+											<span class="item">Pai<a href="" class="delete"></a></span>
+										</li>
+										<li>
+											<span class="item">Pai<a href="" class="delete"></a></span>
+										</li>
+										<li>
+											<span class="item"
+												>Pai
+												<span class="item"
+													>Filho
+													<a href="" class="delete"></a>
+												</span>
+											</span>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</section>
+					<section class="youtube">
+						<div class="row">
+							<div class="column">
+								<h4>Youtube Player</h4>
+								<div class="youtube-player"></div>
+							</div>
+						</div>
+					</section>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">
+			Footer
+		</footer>
+	</body>
 </html>

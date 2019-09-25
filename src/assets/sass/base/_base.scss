@@ -1,0 +1,46 @@
+// Google Fonts
+@import url("https://fonts.googleapis.com/css?family=Nunito|Open+Sans|Raleway|Roboto|Ubuntu&display=swap");
+
+// Font Variables
+$Nunito: "Nunito", sans-serif !default;
+$OpenSans: "Open Sans", sans-serif !default;
+$Raleway: "Raleway", sans-serif !default;
+$Roboto: "Roboto", sans-serif !default;
+$Ubuntu: "Ubuntu", sans-serif !default;
+
+body {
+	font-family: $Raleway;
+
+	.container {
+		height: auto;
+		margin: 0 auto;
+		max-width: 1024px;
+
+		&-full {
+			max-width: 100%;
+		}
+	}
+
+	.list {
+		border: 1px solid #cccccc;
+		border-radius: 10px;
+		padding: 1em;
+
+		li {
+			line-height: 1.5rem;
+			list-style: none;
+
+			a {
+				line-height: 1rem;
+			}
+		}
+	}
+
+	::before,
+	::after {
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+		height: auto;
+		width: auto;
+	}
+}

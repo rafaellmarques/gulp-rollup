@@ -153,4 +153,4 @@ var init = function init() {
 };
 
 window.onload = init;
-//# sourceMappingURL=bundle.js.map
+//# sourceMappingURL=store.js.map

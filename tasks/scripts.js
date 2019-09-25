@@ -6,7 +6,7 @@ const babel = require("rollup-plugin-babel");
 // Paths
 const paths = {
 	input: "./src/assets/js/bundle.js",
-	output: "./dist/js/bundle.js"
+	output: "./dist/js/store.js"
 };
 
 // Task

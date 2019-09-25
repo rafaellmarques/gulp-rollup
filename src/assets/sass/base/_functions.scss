@@ -1,0 +1,13 @@
+// Pixel to Rems
+
+@function pxtorem($pixel) {
+    @if($pixel == 0) {
+        @return 0;
+    }
+
+    @else if(unit($pixel) == "px") {
+        @return $pixel / 16px * 1rem;
+    } @else {
+        @error "passed value must be in pixel or equal to zero"
+    }
+}
